@@ -80,7 +80,7 @@ const Landing = () => {
           transition={{ delay: 0.35, duration: 0.6 }}
           className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-xl mx-auto mb-12"
         >
-          Building intelligent systems with reinforcement learning, transformers, and edge computing — turning research into real-world impact.
+          Building intelligent systems with reinforcement learning and transformers — turning research into real-world impact.
         </motion.p>
 
         <motion.div
