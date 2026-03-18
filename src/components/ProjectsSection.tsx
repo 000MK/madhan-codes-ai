@@ -16,18 +16,6 @@ const projects = [
     description: "Leverages transformer architecture for sequential feature extraction, integrated with a PPO agent to improve trading decisions through advanced sequence modeling of market data.",
   },
   {
-    title: "DQN Stock Trading Agent",
-    icon: Bot,
-    tags: ["DQN", "PyTorch", "Gym"],
-    description: "Custom trading environment and DQN agent built from scratch using PyTorch and OpenAI Gym for learning optimal stock trading strategies.",
-  },
-  {
-    title: "AI + Edge Computing Research",
-    icon: Cpu,
-    tags: ["Graph RL", "Vehicular Networks", "Optimization"],
-    description: "Graph-powered reinforcement learning for vehicular edge computing networks, focusing on task offloading optimization for intelligent transportation systems.",
-  },
-  {
     title: "Desktop Applications",
     icon: Monitor,
     tags: ["PyQt", "Flask", "Python"],
