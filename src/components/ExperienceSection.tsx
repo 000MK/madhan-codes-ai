@@ -16,7 +16,7 @@ const experiences = [
     description: "Worked on Pingle hyperlocal booking app, building backend services using PHP & Node.js.",
   },
   {
-    role: "Web Developer",
+    role: "Software Developer",
     company: "Indtechsoft Solutions",
     location: "",
     description: "Developed ERP and CRM web applications, delivering full-stack solutions for business clients.",

@@ -36,8 +36,8 @@ const HeroSection = () => {
           transition={{ delay: 0.35 }}
           className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Building intelligent systems at the intersection of reinforcement learning, 
-          financial technology, and edge computing. Turning complex AI research into 
+           Building intelligent systems at the intersection of reinforcement learning 
+          and financial technology. Turning complex AI research into 
           real-world solutions.
         </motion.p>
 

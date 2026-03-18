@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Brain, Code2, Cpu, Sparkles } from "lucide-react";
+import { ArrowRight, Brain, Code2, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const floatingNodes = Array.from({ length: 18 }, (_, i) => ({
@@ -80,7 +80,7 @@ const Landing = () => {
           transition={{ delay: 0.35, duration: 0.6 }}
           className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-xl mx-auto mb-12"
         >
-          Building intelligent systems with reinforcement learning, transformers, and edge computing — turning research into real-world impact.
+          Building intelligent systems with reinforcement learning and transformers — turning research into real-world impact.
         </motion.p>
 
         <motion.div
@@ -113,7 +113,6 @@ const Landing = () => {
         >
           {[
             { icon: Brain, label: "Reinforcement Learning" },
-            { icon: Cpu, label: "Edge Computing" },
             { icon: Code2, label: "Full-Stack Dev" },
           ].map(({ icon: Icon, label }) => (
             <div
