@@ -27,17 +27,13 @@ const AboutSection = () => {
             <p>
               Over time, I pivoted toward what truly excites me: <span className="text-foreground font-medium">artificial intelligence and reinforcement learning</span>. 
               Today, I design multi-agent trading systems, explore transformer-based decision-making models, 
-              and research graph-powered RL for edge computing. I'm driven by the challenge of building AI 
+              and research graph-powered RL. I'm driven by the challenge of building AI 
               systems that operate reliably in complex, real-world environments.
             </p>
             <p>
               Alongside my research, I work part-time as a Python software engineer at ITG Integrate System, 
               where I build backend infrastructure and data processing pipelines. This blend of industry 
               experience and academic research gives me a practical, results-oriented approach to AI engineering.
-            </p>
-            <p className="text-foreground font-medium">
-              My goal: become an AI engineer/researcher building advanced intelligent systems — 
-              from financial markets to edge networks.
             </p>
           </div>
         </motion.div>

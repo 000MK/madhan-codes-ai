@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
       <div className="max-w-6xl mx-auto px-4 md:px-8 flex items-center justify-between h-16">
         <a href="#" className="font-mono text-primary font-bold text-lg tracking-tight">
-          MK<span className="text-muted-foreground">.</span>
+          Madhankumar<span className="text-muted-foreground">.</span>
         </a>
 
         {/* Desktop */}

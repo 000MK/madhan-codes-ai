@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Bot, Brain, Cpu, Monitor, Gamepad2, BarChart3 } from "lucide-react";
+import { Brain, Monitor, Gamepad2, BarChart3 } from "lucide-react";
 
 const projects = [
   {

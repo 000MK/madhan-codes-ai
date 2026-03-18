@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Brain, Code2, Cpu, Sparkles } from "lucide-react";
+import { ArrowRight, Brain, Code2, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const floatingNodes = Array.from({ length: 18 }, (_, i) => ({

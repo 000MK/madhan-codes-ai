@@ -93,15 +93,6 @@ const ContactSection = () => {
               </div>
             </div>
 
-            <div>
-              <h3 className="font-semibold text-foreground mb-3">Goals</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed mb-1">
-                <span className="text-primary font-mono text-xs">SHORT-TERM:</span> AI/ML roles at NVIDIA, Micron, TSMC, Google, Microsoft
-              </p>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                <span className="text-primary font-mono text-xs">LONG-TERM:</span> Build intelligent financial systems using RL and transformers
-              </p>
-            </div>
 
             <button className="inline-flex items-center gap-2 border border-border text-foreground px-5 py-2.5 rounded-lg text-sm hover:border-primary/50 transition-colors">
               <Download size={16} />
