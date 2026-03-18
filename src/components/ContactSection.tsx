@@ -81,14 +81,14 @@ const ContactSection = () => {
             <div>
               <h3 className="font-semibold text-foreground mb-4">Connect with me</h3>
               <div className="space-y-3">
-                <a href="https://github.com" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
-                  <Github size={18} /> github.com/madhankumar
+                <a href="https://github.com/000MK" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
+                  <Github size={18} /> github.com/000MK
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
-                  <Linkedin size={18} /> linkedin.com/in/madhankumar
+                <a href="https://www.linkedin.com/in/madhankumarsv" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
+                  <Linkedin size={18} /> linkedin.com/in/madhankumarsv
                 </a>
-                <a href="mailto:madhan@example.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
-                  <Mail size={18} /> madhan@example.com
+                <a href="mailto:madhankumarsv000@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
+                  <Mail size={18} /> madhankumarsv000@gmail.com
                 </a>
               </div>
             </div>
