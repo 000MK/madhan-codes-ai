@@ -113,7 +113,6 @@ const Landing = () => {
         >
           {[
             { icon: Brain, label: "Reinforcement Learning" },
-            { icon: Cpu, label: "Edge Computing" },
             { icon: Code2, label: "Full-Stack Dev" },
           ].map(({ icon: Icon, label }) => (
             <div
