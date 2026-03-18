@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/madhan-codes-ai/',
+  base: '/madhan/',
   server: {
     host: "::",
     port: 8080,
