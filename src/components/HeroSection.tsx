@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { scrollToSection } from "@/lib/scroll";
 
 const HeroSection = () => {
   return (
@@ -49,12 +50,14 @@ const HeroSection = () => {
         >
           <a
             href="#projects"
+            onClick={(e) => scrollToSection(e, "projects")}
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium text-sm hover:opacity-90 transition-opacity"
           >
             View Projects
           </a>
           <a
             href="#contact"
+            onClick={(e) => scrollToSection(e, "contact")}
             className="inline-flex items-center gap-2 border border-border text-foreground px-6 py-3 rounded-lg font-medium text-sm hover:border-primary/50 transition-colors"
           >
             Get in Touch
@@ -84,7 +87,7 @@ const HeroSection = () => {
           transition={{ delay: 1 }}
           className="absolute bottom-8 left-1/2 -translate-x-1/2"
         >
-          <a href="#about" className="text-muted-foreground animate-bounce block">
+          <a href="#about" onClick={(e) => scrollToSection(e, "about")} className="text-muted-foreground animate-bounce block">
             <ArrowDown size={20} />
           </a>
         </motion.div>
