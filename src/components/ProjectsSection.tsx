@@ -27,6 +27,18 @@ const projects = [
     tags: ["Unity", "C#", "Game Dev"],
     description: "SDG 14: Life Below Water themed educational game built with Unity and C#, raising awareness about marine ecosystem conservation.",
   },
+  {
+    title: "Pingle — Hyperlocal Business Engine",
+    icon: BarChart3,
+    tags: ["Node.js", "PHP", "CodeIgniter", "Multi-tenant"],
+    description: "Lead Backend Developer. Implemented a multi-tenant booking system for discovering and scheduling services (Salons, Labs, Clinics) based on real-time proximity. Designed the core engine for service provider availability and automated confirmation notifications. Optimized system performance for fast, reliable backend operations.",
+  },
+  {
+    title: "Global Hearing Aid",
+    icon: Monitor,
+    tags: ["PHP", "CodeIgniter", "Full Stack"],
+    description: "Full Stack Developer. Developed a specialized billing and inventory module for a multi-location hearing aid manufacturer. Features include automated stock allocation, maintenance tracking, and dynamic invoice generation to streamline clinical operations.",
+  },
 ];
 
 const ProjectsSection = () => {

@@ -18,7 +18,7 @@ const HeroSection = () => {
           transition={{ delay: 0.1 }}
           className="font-mono text-primary text-sm mb-4 tracking-widest uppercase"
         >
-          Software Engineer · AI Researcher
+          Software Engineer | Python | Backend | AI &amp; Reinforcement Learning
         </motion.p>
 
         <motion.h1
