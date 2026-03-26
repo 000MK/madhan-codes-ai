@@ -84,8 +84,8 @@ const ContactSection = () => {
                 <a href="https://github.com/000MK" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
                   <Github size={18} /> github.com/000MK
                 </a>
-                <a href="https://www.linkedin.com/in/madhankumarsv" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
-                  <Linkedin size={18} /> linkedin.com/in/madhankumarsv
+                <a href="https://linkedin.com/in/madhankumarsv/" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
+                  <Linkedin size={18} /> www.linkedin.com/in/madhankumarsv
                 </a>
                 <a href="mailto:madhankumarsv000@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors text-sm">
                   <Mail size={18} /> madhankumarsv000@gmail.com

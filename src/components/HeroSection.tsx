@@ -73,7 +73,7 @@ const HeroSection = () => {
           <a href="https://github.com/000MK" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <Github size={20} />
           </a>
-          <a href="https://www.linkedin.com/in/madhankumarsv" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://linkedin.com/in/madhankumarsv/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <Linkedin size={20} />
           </a>
           <a href="mailto:madhankumarsv000@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
