@@ -94,10 +94,10 @@ const ContactSection = () => {
             </div>
 
 
-            <button className="inline-flex items-center gap-2 border border-border text-foreground px-5 py-2.5 rounded-lg text-sm hover:border-primary/50 transition-colors">
+            <a href="/Madhankumar_Resume.pdf" download className="inline-flex items-center gap-2 border border-border text-foreground px-5 py-2.5 rounded-lg text-sm hover:border-primary/50 transition-colors">
               <Download size={16} />
               Download Resume
-            </button>
+            </a>
           </motion.div>
         </div>
       </div>
