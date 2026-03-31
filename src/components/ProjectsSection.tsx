@@ -4,40 +4,40 @@ import { Brain, Monitor, Gamepad2, BarChart3 } from "lucide-react";
 
 const projects = [
   {
-    title: "Multi-Agent RL Traffic Optimization",
-    icon: Brain,
-    tags: ["PPO", "SAC", "Multi-Agent", "PyTorch"],
-    description: "Multi-agent reinforcement learning system for optimizing traffic signal control across intersections, using cooperative agents to minimize congestion and improve throughput.",
-  },
-  {
-    title: "Brain Tumor Detection",
-    icon: Brain,
-    tags: ["CNN", "TensorFlow", "Medical Imaging"],
-    description: "Deep learning-based brain tumor classification system using convolutional neural networks on MRI scans, achieving high accuracy in tumor type identification.",
-  },
-  {
-    title: "Pingle — Hyperlocal Business Engine",
+    title: "Regime-Aware RL Trading System",
     icon: BarChart3,
-    tags: ["Node.js", "PHP", "CodeIgniter", "Multi-tenant"],
-    description: "Lead Backend Developer. Implemented a multi-tenant booking system for discovering and scheduling services (Salons, Labs, Clinics) based on real-time proximity with automated confirmation notifications.",
+    tags: ["PPO", "SAC", "TD3", "LSTM", "POMDP"],
+    description: "Multi-agent reinforcement learning system that detects market regimes (bull, bear, sideways) and dynamically switches between specialized agents for optimal trading performance. Designed as a POMDP system for handling partial observability in financial markets.",
   },
   {
-    title: "Global Hearing Aid",
+    title: "Transformer-Based DRL Trading",
+    icon: Brain,
+    tags: ["Transformer", "PPO", "PyTorch"],
+    description: "Leverages transformer architecture for sequential feature extraction, integrated with a PPO agent to improve trading decisions through advanced sequence modeling of market data.",
+  },
+  {
+    title: "Desktop Applications",
     icon: Monitor,
-    tags: ["PHP", "CodeIgniter", "Full Stack"],
-    description: "Full Stack Developer. Developed a specialized billing and inventory module for a multi-location hearing aid manufacturer with automated stock allocation and dynamic invoice generation.",
-  },
-  {
-    title: "NLP Document Processing Pipeline",
-    icon: BarChart3,
-    tags: ["FastAPI", "NLP", "OCR", "Python"],
-    description: "Built an end-to-end document processing pipeline at Athena AI using NLP and OCR technologies for automated text extraction, classification, and data structuring.",
+    tags: ["PyQt", "Flask", "Python"],
+    description: "Built PyQt-based desktop applications with Flask backend integration for data management and visualization workflows.",
   },
   {
     title: "Unity Game — SDG 14",
     icon: Gamepad2,
     tags: ["Unity", "C#", "Game Dev"],
     description: "SDG 14: Life Below Water themed educational game built with Unity and C#, raising awareness about marine ecosystem conservation.",
+  },
+  {
+    title: "Pingle — Hyperlocal Business Engine",
+    icon: BarChart3,
+    tags: ["Node.js", "PHP", "CodeIgniter", "Multi-tenant"],
+    description: "Lead Backend Developer. Implemented a multi-tenant booking system for discovering and scheduling services (Salons, Labs, Clinics) based on real-time proximity. Designed the core engine for service provider availability and automated confirmation notifications. Optimized system performance for fast, reliable backend operations.",
+  },
+  {
+    title: "Global Hearing Aid",
+    icon: Monitor,
+    tags: ["PHP", "CodeIgniter", "Full Stack"],
+    description: "Full Stack Developer. Developed a specialized billing and inventory module for a multi-location hearing aid manufacturer. Features include automated stock allocation, maintenance tracking, and dynamic invoice generation to streamline clinical operations.",
   },
 ];
 

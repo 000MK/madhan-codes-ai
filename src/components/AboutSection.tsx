@@ -19,21 +19,21 @@ const AboutSection = () => {
 
           <div className="space-y-5 text-muted-foreground leading-relaxed text-base md:text-lg">
             <p>
-              I'm a software engineer and AI enthusiast currently pursuing my M.S. in Artificial Intelligence 
-              at Northeastern University, Boston. I hold a B.Tech in Computer Science from SRM Institute 
-              of Science and Technology, where I built a strong foundation in software development 
-              and problem-solving.
+              I'm a software engineer and AI researcher currently completing my M.S. in Computer 
+              Science & Engineering at Yuan Ze University, Taiwan. My journey started with a B.Sc. in 
+              Computer Science from India, where I built a strong foundation in web and backend development 
+              — working on ERP systems, booking platforms, and desktop applications.
             </p>
             <p>
-              My professional journey includes building production systems at <span className="text-foreground font-medium">Athena AI</span>, where I worked 
-              on NLP pipelines, OCR systems, and backend services using FastAPI. I also gained research 
-              experience as an <span className="text-foreground font-medium">AI Research Intern at SRM Research Lab</span>, exploring deep learning 
-              approaches for medical imaging and traffic optimization.
+              Over time, I pivoted toward what truly excites me: <span className="text-foreground font-medium">artificial intelligence and reinforcement learning</span>. 
+              Today, I design multi-agent trading systems, explore transformer-based decision-making models, 
+              and research graph-powered RL. I'm driven by the challenge of building AI 
+              systems that operate reliably in complex, real-world environments.
             </p>
             <p>
-              I'm driven by the challenge of building intelligent systems that solve real-world problems — 
-              from multi-agent reinforcement learning to brain tumor detection using CNNs. This blend of 
-              industry experience and academic research gives me a practical, results-oriented approach to AI engineering.
+              Alongside my research, I work part-time as a Python software engineer at ITG Integrate System, 
+              where I build backend infrastructure and data processing pipelines. This blend of industry 
+              experience and academic research gives me a practical, results-oriented approach to AI engineering.
             </p>
           </div>
         </motion.div>
